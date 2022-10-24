@@ -1,0 +1,92 @@
+.toprow {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    overflow:hidden;
+}
+
+#stormcast img {
+    transition: transform .5s ease;
+}
+
+#stormcast:hover img {
+    transform: scale(1.09);
+}
+
+#vampire img {
+    transition: transform .5s ease;
+}
+
+#vampire:hover img {
+    transform:scale(1.09);
+}
+
+#swampcast img {
+    transition: transform .5s ease;
+}
+
+#swampcast:hover img {
+    transform:scale(1.09);
+}
+
+.bottomrow {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    overflow:hidden;
+}
+
+#radukar img {
+    transition:transform .5s ease;
+}
+
+#radukar:hover img {
+    transform:scale(1.09)
+}
+
+#belakor img {
+    transition: transform .5s ease;
+}
+
+#belakor:hover img {
+    transform:scale(1.09)
+}
+
+#harvester img {
+    transition:transform .5s ease;
+}
+
+#harvester:hover img {
+    transform:scale(1.09)
+}
+
+article img {
+    position:relative;
+    width:400px;
+    height:500px;
+    margin-left:50px;
+    margin-top:25px;
+    border-radius:20px;
+    border:2px;
+    border-style:solid;
+    border-color:rgb(0, 37, 7);
+}
+
+article {
+    width:500px;
+    height:600px;
+    background-color:rgba(38, 114, 48, 0.685);
+    margin-bottom:25px;
+    margin-top:25px;
+    border:3px;
+    border-radius:20px; 
+    border-style:solid;
+    border-color:rgb(0, 37, 7);
+}
+
+article h3 {
+    text-align:center;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:20px;
+    font-size:25px;
+}
